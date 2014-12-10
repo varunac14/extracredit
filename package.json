@@ -1,0 +1,16 @@
+{
+	"name" : "MongoNode",
+	"description" : "playing with mongo,express,nodejs",
+	"version" : "0.1.0",
+	"private" : true,
+	"scripts": {
+    "start": "node app.js"
+  	},
+  	"main":"app.js",
+	"dependencies" : {
+		"express":"3.x",
+		"async"  : "0.x",
+		"express3-handlebars"  : "0.x",
+		"mongodb"  : "1.x"
+	}
+}
